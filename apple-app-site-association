@@ -4,7 +4,10 @@
     "details": [
       {
         "appID": "6M3P8XL5F7.today.op.sign.dev",
-        "paths": ["*"]
+        "paths": [
+          "/SignDocument/*",
+          "/SecurableDocument/*"
+        ]
       }
     ]
   }
