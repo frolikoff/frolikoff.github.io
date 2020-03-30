@@ -8,6 +8,13 @@
           "/SignDocument/*",
           "/SecurableDocument/*"
         ]
+      },
+      {
+        "appID": "6M3P8XL5F7.today.op.sign.stage",
+        "paths": [
+          "/SignDocument/*",
+          "/SecurableDocument/*"
+        ]
       }
     ]
   }
