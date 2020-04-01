@@ -6,14 +6,24 @@
         "appID": "6M3P8XL5F7.today.op.sign.dev",
         "paths": [
           "/SignDocument/*",
-          "/SecurableDocument/*"
+          "/SecurableDocument/*",
+          "/Link/*"
         ]
       },
       {
         "appID": "6M3P8XL5F7.today.op.sign.staging",
         "paths": [
           "/SignDocument/*",
-          "/SecurableDocument/*"
+          "/SecurableDocument/*",
+          "/Link/*"
+        ]
+      },
+      {
+        "appID": "6M3P8XL5F7.today.op.sign",
+        "paths": [
+          "/SignDocument/*",
+          "/SecurableDocument/*",
+          "/Link/*"
         ]
       }
     ]
