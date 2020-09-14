@@ -25,6 +25,25 @@
           "/SecurableDocument/*",
           "/Link/*"
         ]
+      },
+      
+      {
+        "appID": “RB2CCW5865.com.dbbest.valleypay.dev",
+        "paths": [
+          "/pages/checkverificationcode/*"
+        ]
+      },
+      {
+        "appID": "RB2CCW5865.com.dbbest.valleypay.stage",
+        "paths": [
+          "/pages/checkverificationcode/*”
+        ]
+      },
+      {
+        "appID": "RB2CCW5865.com.dbbest.valleypay",
+        "paths": [
+          "/pages/checkverificationcode/*"
+        ]
       }
     ]
   }
