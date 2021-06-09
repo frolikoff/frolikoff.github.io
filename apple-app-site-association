@@ -7,7 +7,8 @@
         "paths": [
           "/SignDocument/*",
           "/SecurableDocument/*",
-          "/Link/*"
+          "/Link/*",
+          "/Signer/*"
         ]
       },
       {
@@ -15,7 +16,8 @@
         "paths": [
           "/SignDocument/*",
           "/SecurableDocument/*",
-          "/Link/*"
+          "/Link/*",
+          "/Signer/*"
         ]
       },
       {
@@ -23,7 +25,8 @@
         "paths": [
           "/SignDocument/*",
           "/SecurableDocument/*",
-          "/Link/*"
+          "/Link/*",
+          "/Signer/*"
         ]
       },
       
