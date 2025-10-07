@@ -97,12 +97,38 @@
             padding: 24px;
         }
         .intro-section {
-            margin-bottom: 24px;
+            margin-bottom: 32px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            padding: 16px;
+            border-radius: 8px;
+            border: 1px solid #e1e5e9;
+            position: relative;
+        }
+        .intro-section::before {
+            content: "👋";
+            font-size: 24px;
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            opacity: 0.7;
         }
         .intro-text {
             font-size: 16px;
-            line-height: 1.5;
+            line-height: 1.6;
             margin: 0 0 16px 0;
+            color: #333333;
+        }
+        .intro-highlight {
+            font-size: 18px;
+            font-weight: 600;
+            color: #0073b1;
+            margin: 20px 0;
+        }
+        .cta-text {
+            font-size: 16px;
+            color: #666666;
+            font-style: italic;
+            margin-top: 20px;
         }
         .section {
             margin-bottom: 32px;
@@ -214,8 +240,13 @@
 
         <main class="main-content">
             <section class="intro-section">
-                <p class="intro-text">Hello! I'm Alexander, a passionate Senior iOS Engineer with over 10 years of experience creating exceptional mobile applications. Welcome to my personal page.</p>
-                <p class="intro-text">I am currently open to new opportunities and would love to hear from you. Feel free to reach out if you need professional iOS development, consulting, or have any exciting projects in mind.</p>
+                <p class="intro-text">Hi there! I'm <strong>Alexander Frolikov</strong>, a passionate Senior iOS Engineer with over 10 years of experience crafting exceptional mobile applications that users love.</p>
+
+                <p class="intro-highlight">🚀 Currently exploring new opportunities to bring innovative iOS solutions to life!</p>
+
+                <p class="intro-text">I've had the privilege of working with Fortune 500 retailers including Nike, Macy's, and Costco, delivering high-performance mobile applications that scale beautifully and perform flawlessly.</p>
+
+                <p class="cta-text">💬 Let's connect! Whether you need expert iOS development, technical consulting, or want to discuss exciting projects, I'd love to hear from you.</p>
             </section>
 
             <section class="section">
